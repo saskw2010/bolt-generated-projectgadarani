@@ -1,6 +1,6 @@
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-let cartCount = 0;
+let cartCount: number = 0;
 const cartBadge = document.querySelector('.badge') as HTMLElement;
 
 document.querySelectorAll('.product-card button').forEach(button => {
