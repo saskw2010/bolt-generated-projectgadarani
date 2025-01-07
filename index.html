@@ -1,201 +1,345 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sports Equipment Store</title>
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://www.kelmen10sports.us/cdn/shop/files/kelmen10_sports_logo_180x.png" alt="Logo" height="50">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#featured">Featured</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#products">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#categories">Categories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#newsletter">Newsletter</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#cart">
-              <i class="bi bi-cart3"></i>
-              <span class="badge bg-primary">0</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Hero Slider -->
-  <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://www.kelmen10sports.us/cdn/shop/files/Untitled_design_1_1950x.png" class="d-block w-100" alt="Sports Equipment">
-        <div class="carousel-caption">
-          <h1>Premium Sports Equipment</h1>
-          <p>Quality gear for athletes</p>
-          <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7370_1950x.heic" class="d-block w-100" alt="Training Equipment">
-        <div class="carousel-caption">
-          <h1>Training Gear</h1>
-          <p>Get ready for your next workout</p>
-          <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
-        </div>
+<!doctype html>
+<html
+  class="no-js  m:overflow-hidden"
+  lang="en"
+  data-template="index"
+  
+>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "pdcth71lw7");
+</script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "pdcth71lw7");
+</script>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <meta name="theme-color" content=""><link rel="canonical" href="https://www.kelmen10sports.us/">
+
+<link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+
+<link rel="icon" type="image/png" href="//www.kelmen10sports.us/cdn/shop/files/f5422a14-82d7-4038-8038-0dc7941403a0.png?crop=center&height=32&v=1733815271&width=32"><title class="index">Kelme Sports</title><meta property="og:site_name" content="Kelme Sports">
+<meta property="og:url" content="https://www.kelmen10sports.us/">
+<meta property="og:title" content="Kelme Sports">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Kelme Sports"><meta name="twitter:site" content="@https://"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kelme Sports">
+<meta name="twitter:description" content="Kelme Sports">
+
+<link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin><link rel="preload" as="font" href="//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n7.39bee04bd277a9c4e94e2fd42d53f4e3c0afb8a5.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8dcd99d95a93e11265e926e3c2864e924b5a842a0dfaea40b8f78e35da05968f" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n7.39bee04bd277a9c4e94e2fd42d53f4e3c0afb8a5.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8dcd99d95a93e11265e926e3c2864e924b5a842a0dfaea40b8f78e35da05968f" type="font/woff2" crossorigin><link rel="preload" as="font" href="//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n7.39bee04bd277a9c4e94e2fd42d53f4e3c0afb8a5.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8dcd99d95a93e11265e926e3c2864e924b5a842a0dfaea40b8f78e35da05968f" type="font/woff2" crossorigin><style>
+  @font-face {  font-family: Helvetica;  font-weight: 700;  font-style: normal;  font-display: swap;  src: url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n7.39bee04bd277a9c4e94e2fd42d53f4e3c0afb8a5.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8dcd99d95a93e11265e926e3c2864e924b5a842a0dfaea40b8f78e35da05968f") format("woff2"),       url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n7.b95359461a6788d5549e702cb2123bc40c227e49.woff?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=519a7ce371a6a42eb92852f8e824a7a4d57584d355a4b24442d18744f4ed13ea") format("woff");}@font-face {  font-family: Helvetica;  font-weight: 900;  font-style: normal;  font-display: swap;  src: url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n9.550a1e91659e7c37c9e23a93e965020174c2943b.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=0c08d82f487e1762e4eb621eeb8b5fd589e95711a7df42a716cde87857de38c7") format("woff2"),       url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n9.4862c90300b0d3a24707a0b3bfee258cd6ae461f.woff?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=ebc89921b66ed3fcd4352f46bae98c196d74cfdf046b0a9a4d0a15628f7011bd") format("woff");}:root {  --font-stack-header: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;  --font-style-header: normal;  --font-weight-header: 700;  --font-weight-header--bolder: 900;  --font-weight-header--lighter: 400;}@font-face {  font-family: Helvetica;  font-weight: 700;  font-style: normal;  font-display: swap;  src: url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n7.39bee04bd277a9c4e94e2fd42d53f4e3c0afb8a5.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8dcd99d95a93e11265e926e3c2864e924b5a842a0dfaea40b8f78e35da05968f") format("woff2"),       url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n7.b95359461a6788d5549e702cb2123bc40c227e49.woff?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=519a7ce371a6a42eb92852f8e824a7a4d57584d355a4b24442d18744f4ed13ea") format("woff");}@font-face {  font-family: Helvetica;  font-weight: 700;  font-style: normal;  font-display: swap;  src: url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n7.39bee04bd277a9c4e94e2fd42d53f4e3c0afb8a5.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8dcd99d95a93e11265e926e3c2864e924b5a842a0dfaea40b8f78e35da05968f") format("woff2"),       url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n7.b95359461a6788d5549e702cb2123bc40c227e49.woff?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=519a7ce371a6a42eb92852f8e824a7a4d57584d355a4b24442d18744f4ed13ea") format("woff");}@font-face {  font-family: Helvetica;  font-weight: 900;  font-style: normal;  font-display: swap;  src: url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n9.550a1e91659e7c37c9e23a93e965020174c2943b.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=0c08d82f487e1762e4eb621eeb8b5fd589e95711a7df42a716cde87857de38c7") format("woff2"),       url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_n9.4862c90300b0d3a24707a0b3bfee258cd6ae461f.woff?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=ebc89921b66ed3fcd4352f46bae98c196d74cfdf046b0a9a4d0a15628f7011bd") format("woff");}@font-face {  font-family: Helvetica;  font-weight: 700;  font-style: oblique;  font-display: swap;  src: url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_o7.215fd4ca1a06214fa01e44328a1992c977700ea2.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8c675381532c624d581b40f44c4feeb3d92bdd485290f0f376ab7b2fece9820d") format("woff2"),       url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_o7.b0a2026ae2aa64d060f9ce0ee1b3c3c1aa21bf88.woff?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8c7a28824a7d0da7a0a9f73c6ce080eee686f1609281d7c6e89ba4355d1ff3b6") format("woff");}@font-face {  font-family: Helvetica;  font-weight: 700;  font-style: oblique;  font-display: swap;  src: url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_o7.215fd4ca1a06214fa01e44328a1992c977700ea2.woff2?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8c675381532c624d581b40f44c4feeb3d92bdd485290f0f376ab7b2fece9820d") format("woff2"),       url("//www.kelmen10sports.us/cdn/fonts/helvetica/helvetica_o7.b0a2026ae2aa64d060f9ce0ee1b3c3c1aa21bf88.woff?h1=MzYzZGNlLThjLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=a2VsbWVuMTBzcG9ydHMudXM&hmac=8c7a28824a7d0da7a0a9f73c6ce080eee686f1609281d7c6e89ba4355d1ff3b6") format("woff");}:root {  --font-weight-body--bold: 700;  --font-weight-body--bolder: 900;  --font-stack-body: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;  --font-style-body: normal;  --font-weight-body: 700;}
+</style>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/main.js"></script>
+</head>
+
+  <body
+    id="m-theme"
+    class="template-index  m-gradient m-color-default m:overflow-hidden"
+    
+  >
+    
+  <style>
+    .m-page-transition {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999999;
+        background: #fff;
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100vw;
+        max-height: 100vh;
+				transition-property: opacity, visibility;
+				transition-duration: var(--m-duration-default);
+				transition-timing-function: ease;
+      }
+      .m-page-transition.fade-out {
+        opacity: 0;
+        visibility: hidden;
+      }
+			.m-page-transition.m-page-transition--design-mode {
+				opacity: 1;
+				visibility: visible;
+			}
+      .m-page-transition.fade-in {
+        opacity: 1;
+        visibility: visible;
+      }
+      .m-page-transition.fade-out .m-page-transition__spinner-content {
+        display: none;
+      }
+			.m-page-transition.m-page-transition--design-mode .m-page-transition__spinner-content {
+				display: block;
+			}
+      @keyframes pageTransitionSpinner {
+        0% {
+          -webkit-transform: rotate3d(0, 0, 1, 0deg);
+          transform: rotate3d(0, 0, 1, 0deg);
+        }
+        25% {
+          -webkit-transform: rotate3d(0, 0, 1, 90deg);
+          transform: rotate3d(0, 0, 1, 90deg);
+        }
+        50% {
+          -webkit-transform: rotate3d(0, 0, 1, 180deg);
+          transform: rotate3d(0, 0, 1, 180deg);
+        }
+        75% {
+          -webkit-transform: rotate3d(0, 0, 1, 270deg);
+          transform: rotate3d(0, 0, 1, 270deg);
+        }
+        100% {
+          -webkit-transform: rotate3d(0, 0, 1, 360deg);
+          transform: rotate3d(0, 0, 1, 360deg);
+        }
+      }
+			@keyframes m-blink {
+				25% {
+					opacity: 0.5;
+				}
+				50% {
+					opacity: 0;
+				}
+				75% {
+					opacity: 0.5;
+				}
+			}
+      .m-page-transition__loading {
+        position: absolute;
+        animation: pageTransitionSpinner 1.5s linear infinite;
+        width: var(--loading-size);
+        height: var(--loading-size);
+        top: 10px;
+        left: 10px;
+        border-radius: 50%;
+        box-shadow: 0 2px 0 0 var(--loading-color);
+        transform-origin: calc(var(--loading-size) / 2) calc(var(--loading-size) / 2 + 1px);
+      }
+      .m-page-transition__logo {
+        animation: m-blink 1.5s linear infinite;
+        position: absolute;
+        width: var(--loading-size);
+        height: var(--loading-size);
+        top: 10px;
+        left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .m-page-transition__spinner {
+        width: var(--loading-size);
+        height: var(--loading-size);
+        display: inline-block;
+        overflow: hidden;
+        background: transparent;
+      }
+      .m-page-transition__spinner-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform: translateZ(0) scale(0.8);
+        backface-visibility: hidden;
+        transform-origin: 0 0;
+      }
+      .m-page-transition__spinner-content div {
+        box-sizing: content-box;
+      }
+  </style>
+  <div
+    class="m-page-transition"
+		data-design-mode="false"
+    style="--loading-size: 80px; --loading-color: #bbbbbb;"
+  >
+    <div class="m-page-transition__spinner">
+      <div class="m-page-transition__spinner-content">
+        <div class="m-page-transition__loading"></div>
+        
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 
-  <!-- Featured Products -->
-  <section id="featured" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Featured Products</h2>
-      <div class="row g-4">
-        <div class="col-md-3">
-          <div class="card product-card">
-            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7366_540x.heic" class="card-img-top" alt="Product">
-            <div class="card-body">
-              <h5 class="card-title">Training Equipment</h5>
-              <p class="card-text">$129.99</p>
-              <button class="btn btn-primary w-100">Add to Cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card product-card">
-            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7367_540x.heic" class="card-img-top" alt="Product">
-            <div class="card-body">
-              <h5 class="card-title">Sports Gear</h5>
-              <p class="card-text">$89.99</p>
-              <button class="btn btn-primary w-100">Add to Cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card product-card">
-            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7368_540x.heic" class="card-img-top" alt="Product">
-            <div class="card-body">
-              <h5 class="card-title">Training Kit</h5>
-              <p class="card-text">$149.99</p>
-              <button class="btn btn-primary w-100">Add to Cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card product-card">
-            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7369_540x.heic" class="card-img-top" alt="Product">
-            <div class="card-body">
-              <h5 class="card-title">Sports Package</h5>
-              <p class="card-text">$199.99</p>
-              <button class="btn btn-primary w-100">Add to Cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Categories Banner -->
-  <section id="categories" class="categories-banner py-5 bg-light">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="category-card">
-            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7370_720x.heic" class="img-fluid" alt="Training">
-            <div class="category-overlay">
-              <h3>Training Equipment</h3>
-              <a href="#" class="btn btn-light">Shop Now</a>
+
+  <style data-shopify>
+    .m-button--scroll-top {
+      position: fixed;
+      right: 16px;
+      bottom: 86px;
+      z-index: 99;
+      border-radius: 50%;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 46px;
+      height: 46px;
+      opacity: 0;
+    }
+
+    .m-button--scroll-top.is-show {
+      opacity: 1;
+    }
+
+    .m-scroll-top-target {
+      width: 0;
+      height: 0;
+      visibility: hidden;
+      opacity: 0;
+    }
+    @media (max-width: 767px) {
+      .m-button--scroll-top {
+        width: 40px;
+        height: 40px;
+      }
+      .m-button--scroll-top svg {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  </style>
+
+<div id="scroll-to-top-target" class="m-scroll-top-target"></div>
+
+<button
+  id="scroll-to-top-button"
+  class="m-button m-button--primary m-button--scroll-top"
+  aria-label="Scroll to Top"
+>
+  <svg class="m-svg-icon--medium" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M4.465 263.536l7.07 7.071c4.686 4.686 12.284 4.686 16.971 0L207 92.113V468c0 6.627 5.373 12 12 12h10c6.627 0 12-5.373 12-12V92.113l178.494 178.493c4.686 4.686 12.284 4.686 16.971 0l7.07-7.071c4.686-4.686 4.686-12.284 0-16.97l-211.05-211.05c-4.686-4.686-12.284-4.686-16.971 0L4.465 246.566c-4.687 4.686-4.687 12.284 0 16.97z"/></svg>
+</button>
+
+<!-- BEGIN sections: header-group -->
+<div id="shopify-section-sections--16099304407149__annoucement" class="shopify-section shopify-section-group-header-group"><link href="//www.kelmen10sports.us/cdn/shop/t/4/assets/announcement-bar.css?v=138445021103034466441731566779" rel="stylesheet" type="text/css" media="all" />
+<script src="//www.kelmen10sports.us/cdn/shop/t/4/assets/announcement-bar.js?v=172561539198475433211731566779" defer="defer"></script>
+
+
+
+
+  
+    <section
+      id="m-announcement--sections--16099304407149__annoucement"
+      data-section-id="sections--16099304407149__annoucement"
+      data-section-type="announcement"
+      class="m-announcement-bar m-gradient m-color-dark"
+      
+    >
+      <m-announcement-bar
+        data-enable-slider="false"
+        
+      >
+        <div class="m-announcement-bar__container container-fluid">
+          <div class="m-announcement-bar__wrapper">
+            <div class="m-announcement-bar__inner">
+              
+                <div class="m-announcement-bar__item">
+                  
+                    <a href="/collections/cleats" class="m-announcement-bar__link"></a>
+                  
+                  
+                    <div class="m-announcement-bar__content"><span class="font-medium" style="font-size: 14px;">Our Holiday Gift for You! EVERYTHING 25% OFF ☁️ </span></div>
+                  
+                </div>
+              
             </div>
           </div>
+          
         </div>
-        <div class="col-md-6">
-          <div class="category-card">
-            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7371_720x.heic" class="img-fluid" alt="Accessories">
-            <div class="category-overlay">
-              <h3>Accessories</h3>
-              <a href="#" class="btn btn-light">Shop Now</a>
-            </div>
-          </div>
+      </m-announcement-bar>
+      
+        <div class="m-announcement-bar__close m:flex m:items-center">
+          <svg
+            class="m-svg-icon--medium"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
         </div>
-      </div>
-    </div>
-  </section>
+        <script>
+          document.querySelector('.m-announcement-bar__close').addEventListener('click', function () {
+            document.querySelector('.m-announcement-bar').remove();
+            document.documentElement.style.setProperty('--m-announcement-height', '0px');
+          });
+        </script>
+      
+    </section>
+  
 
-  <!-- Newsletter -->
-  <section id="newsletter" class="newsletter py-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 text-center">
-          <h3>Subscribe to Our Newsletter</h3>
-          <p>Get updates on new products and special offers</p>
-          <form class="d-flex justify-content-center gap-2">
-            <input type="email" class="form-control w-50" placeholder="Enter your email">
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5>About Us</h5>
-          <p>Your premier destination for quality sports equipment and training gear.</p>
-        </div>
-        <div class="col-md-4">
-          <h5>Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Home</a></li>
-            <li><a href="#" class="text-white">Products</a></li>
-            <li><a href="#" class="text-white">About</a></li>
-            <li><a href="#" class="text-white">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h5>Contact Info</h5>
-          <ul class="list-unstyled">
-            <li><i class="bi bi-geo-alt"></i> Sports Street, City</li>
-            <li><i class="bi bi-telephone"></i> +1 234 567 890</li>
-            <li><i class="bi bi-envelope"></i> info@sportsstore.com</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
 
-  <script type="module" src="/src/main.ts"></script>
-</body>
-</html>
+</div><div id="shopify-section-sections--16099304407149__header" class="shopify-section shopify-section-group-header-group m-section-header"><link href="//www.kelmen10sports.us/cdn/shop/t/4/assets/header.css?v=6364695847640330031731566780" rel="stylesheet" type="text/css" media="all" />
+
+<script src="//www.kelmen10sports.us/cdn/shop/t/4/assets/mega-menu.js?v=48694260490813698561731566780" defer="defer"></script>
+<script src="//www.kelmen10sports.us/cdn/shop/t/4/assets/header.js?v=139348793745598728721731566780" defer="defer"></script>
+<script src="//www.kelmen10sports.us/cdn/shop/t/4/assets/localization-form.js?v=78680935164192769481731566780" defer="defer"></script>
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Kelme Sports",
+    
+      
+      "logo": "https:\/\/www.kelmen10sports.us\/cdn\/shop\/files\/ke6666kc56-kelme-logo-kelme-nepal-kelme-is-1st-authentic-sports-brand-in-nepal-who_1_25d0e05a-e4b8-4a78-b167-f87e5c055294.png?v=1726075648\u0026width=1779",
+    
+    "sameAs": [
+      "https:\/\/twitter.com\/",
+      "https:\/\/facebook.com\/",
+      "https:\/\/pinterest.com\/",
+      "https:\/\/www.instagram.com\/kelmecalifornia\/",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "url": "https:\/\/www.kelmen10sports.us"
+  }
+</script>
+
+
+  
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Kelme Sports",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https:\/\/www.kelmen10sports.us\/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "url": "https:\/\/www.kelmen10sports.us"
+    }
+  </script>
+
+
+
+
+<style data-shopify>
+  :root {
+    --logo-width-desktop: 145px;
+    --logo-width-mobile: 105px;
+    --logo-width-sticky: 140px;
+    --logo-height-sticky: 25.654862282181004px;
+    --header-transparent-text-color: 255, 255, 255;
+  }
+</style>
+<m-header
