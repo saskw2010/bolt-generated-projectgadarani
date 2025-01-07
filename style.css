@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand img {
+  max-height: 50px;
+}
+
+/* Hero Slider */
+.carousel-item {
+  height: 600px;
+  position: relative;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+/* Product Cards */
+.product-card {
+  transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Category Cards */
+.category-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.category-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: #f8f9fa;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+}
+
+footer a:hover {
+  color: #007bff !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 400px;
+  }
+  
+  .carousel-caption {
+    padding: 1rem;
+  }
+  
+  .product-card img {
+    height: 200px;
+  }
+}

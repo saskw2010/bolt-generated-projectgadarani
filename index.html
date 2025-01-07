@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Equipment Store</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://www.kelmen10sports.us/cdn/shop/files/kelmen10_sports_logo_180x.png" alt="Logo" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#featured">Featured</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#categories">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#newsletter">Newsletter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cart">
+              <i class="bi bi-cart3"></i>
+              <span class="badge bg-primary">0</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Slider -->
+  <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.kelmen10sports.us/cdn/shop/files/Untitled_design_1_1950x.png" class="d-block w-100" alt="Sports Equipment">
+        <div class="carousel-caption">
+          <h1>Premium Sports Equipment</h1>
+          <p>Quality gear for athletes</p>
+          <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7370_1950x.heic" class="d-block w-100" alt="Training Equipment">
+        <div class="carousel-caption">
+          <h1>Training Gear</h1>
+          <p>Get ready for your next workout</p>
+          <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Featured Products -->
+  <section id="featured" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Featured Products</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7366_540x.heic" class="card-img-top" alt="Product">
+            <div class="card-body">
+              <h5 class="card-title">Training Equipment</h5>
+              <p class="card-text">$129.99</p>
+              <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7367_540x.heic" class="card-img-top" alt="Product">
+            <div class="card-body">
+              <h5 class="card-title">Sports Gear</h5>
+              <p class="card-text">$89.99</p>
+              <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7368_540x.heic" class="card-img-top" alt="Product">
+            <div class="card-body">
+              <h5 class="card-title">Training Kit</h5>
+              <p class="card-text">$149.99</p>
+              <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7369_540x.heic" class="card-img-top" alt="Product">
+            <div class="card-body">
+              <h5 class="card-title">Sports Package</h5>
+              <p class="card-text">$199.99</p>
+              <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Banner -->
+  <section id="categories" class="categories-banner py-5 bg-light">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="category-card">
+            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7370_720x.heic" class="img-fluid" alt="Training">
+            <div class="category-overlay">
+              <h3>Training Equipment</h3>
+              <a href="#" class="btn btn-light">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="category-card">
+            <img src="https://www.kelmen10sports.us/cdn/shop/files/IMG_7371_720x.heic" class="img-fluid" alt="Accessories">
+            <div class="category-overlay">
+              <h3>Accessories</h3>
+              <a href="#" class="btn btn-light">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="newsletter py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>Get updates on new products and special offers</p>
+          <form class="d-flex justify-content-center gap-2">
+            <input type="email" class="form-control w-50" placeholder="Enter your email">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>Your premier destination for quality sports equipment and training gear.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Home</a></li>
+            <li><a href="#" class="text-white">Products</a></li>
+            <li><a href="#" class="text-white">About</a></li>
+            <li><a href="#" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact Info</h5>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-geo-alt"></i> Sports Street, City</li>
+            <li><i class="bi bi-telephone"></i> +1 234 567 890</li>
+            <li><i class="bi bi-envelope"></i> info@sportsstore.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
